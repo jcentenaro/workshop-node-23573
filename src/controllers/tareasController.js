@@ -12,7 +12,7 @@ const store = (req, res) => {
     const tarea = {
         id: Date.now(),
         title: req.body.title,
-        completed: false
+        completed: false,
     };
 
     tareas.push(tarea);
